@@ -1,0 +1,51 @@
+.history {
+  margin-top: 4rem;
+}
+.history__image {
+  max-width: 34.375rem;
+  margin: auto;
+}
+.history__image img {
+  width: 100%;
+  border-radius: 3rem;
+}
+.history__content {
+  margin-top: 2rem;
+}
+.history__content h2 {
+  font-size: 2rem;
+}
+.history__content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+@media (min-width: 1280px) {
+  .history {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .history__image,
+  .history__content {
+    width: 50%;
+  }
+  .history__content {
+    margin-top: 0;
+    margin-right: 2rem;
+  }
+  .history__content h2 {
+    font-size: 3rem;
+  }
+  .history__content p {
+    font-size: 1.125rem;
+  }
+  .history__image img {
+    border-radius: unset;
+    border-top-right-radius: 10rem;
+    border-top-left-radius: 2.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+}
