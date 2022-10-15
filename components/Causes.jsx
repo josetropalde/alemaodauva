@@ -29,9 +29,9 @@ const Causes = () => {
       <section className={styles.causes} id="causes">
         <h2>Causas que apoio</h2>
         <div className={styles.causes__itens}>
-          {causesData.map((item) => {
+          {causesData.map((item, index) => {
             return (
-              <div className={styles.causes__item}>
+              <div className={styles.causes__item} key={index}>
                 <img src={item.src} alt />
                 <h3>{item.title}</h3>
                 <p>{item.text}</p>
