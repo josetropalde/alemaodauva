@@ -30,11 +30,11 @@ const Header = () => {
             <li>
               <Link href={"#causes"}>Causas</Link>
             </li>
-            {/* <li>
+            <li>
               <Link target={"_blank"} href={"/"}>
                 Doar
               </Link>
-            </li> */}
+            </li>
           </ul>
         </nav>
         <div
