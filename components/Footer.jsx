@@ -15,13 +15,13 @@ const Footer = ({ projectsData, projectPage }) => {
               <Link href="/">Ínicio</Link>
             </li>
             <li>
-              <a href="/#history">História</a>
+              <Link href="/#history">História</Link>
             </li>
             <li>
-              <a href="/#projects">Projetos</a>
+              <Link href="/#projects">Projetos</Link>
             </li>
             <li>
-              <a href="/#causes">Causas</a>
+              <Link href="/#causes">Causas</Link>
             </li>
           </ul>
         </nav>
@@ -40,19 +40,19 @@ const Footer = ({ projectsData, projectPage }) => {
         <div className={styles.footer__socials}>
           <h2>Redes Sociais</h2>
           <div className={styles.social}>
-            <a href="">
+            <Link href="">
               <img src="/facebook 1.png" alt />
-            </a>
+            </Link>
           </div>
           <div className={styles.social}>
-            <a href="">
+            <Link href="">
               <img src="/envelope-solid.png" alt />
-            </a>
+            </Link>
           </div>
           <div className={styles.social}>
-            <a href="">
+            <Link href="">
               <img src="/whatsapp-brands.png" alt />
-            </a>
+            </Link>
           </div>
         </div>
       </footer>
